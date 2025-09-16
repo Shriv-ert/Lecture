@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="43425E72-D4E4-2611-14AE-4314BC5BB64B" mainViewID="E6206C7D-9F4C-873E-B4CB-BEC20A852B15">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 03:22:10 UTC</createdTime>
+<ownerDesignName>Experimental</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
