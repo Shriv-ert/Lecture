@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E7D955C-DE90-4417-CF84-7AD14DFAF535" name="Karyawan">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:41:07 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_karyawan" id="54C1E92C-6346-083C-91C1-56FE1930743D">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:41:15 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama" id="5E5B4F03-B2E2-6B35-D63B-8E7FAC687CA4">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:41:24 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usaha" id="1931199F-B7BF-8979-7266-FC44B5375E16">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:42:13 UTC</createdTime>
+<generatorID>F39D4E87-8603-694D-F886-92F52CCBB5E5</generatorID>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<referedAttribute>1BAA96D3-9585-2A0C-5211-5B9EF8320EBB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gaji" id="32A97ACF-632A-F080-106F-1055E31BB822">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 17:50:51 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CAAE5672-D92D-183B-5098-2A47D277F5EF" name="Karyawan PK">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:41:31 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54C1E92C-6346-083C-91C1-56FE1930743D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

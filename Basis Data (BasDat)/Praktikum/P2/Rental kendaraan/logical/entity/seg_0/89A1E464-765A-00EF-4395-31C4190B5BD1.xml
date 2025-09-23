@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89A1E464-765A-00EF-4395-31C4190B5BD1" name="Transaksi">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:11:00 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_transaksi" id="F5F2A9DC-4C4A-A7EC-A313-A84EBB1A2D9F">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:43:27 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_mulai" id="9FAAAE9E-DF90-B3BB-EC6E-B8182F38D4C7">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:43:51 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_selesai" id="622B0209-68E4-50F9-8596-667A25178C81">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:44:04 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga" id="5B239A8E-82B5-218A-4B08-4F37DFACB758">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:45:27 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_rek" id="144B1FBC-51D7-111E-FE9B-79BA9EAACB66">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:59:57 UTC</createdTime>
+<generatorID>372CF7C8-6FD0-651B-2728-853870025AA0</generatorID>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<referedAttribute>232A7F0C-8C90-0290-6F76-DB5284FFD6EB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="noHp_ewallet" id="A0EFBFE7-010A-6BCD-3372-0CB807E4B820">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 17:00:06 UTC</createdTime>
+<generatorID>DCDCCFE7-4607-30B3-4E1C-C5FE1DEA9634</generatorID>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<referedAttribute>7E8A4185-BA3D-0E88-9B15-25C5ACD77434</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kendaraan" id="5BEAFDC7-CEF0-CC8C-36FC-998AD2CDA1AB">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 17:05:27 UTC</createdTime>
+<generatorID>5C98F71C-A843-C78A-B8A5-4B5F5CD1FBAD</generatorID>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<referedAttribute>748DC4C6-4E21-FD5D-0E8A-9DB6428FFB1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_penyewa" id="A0B14766-6673-CEEC-EBDC-62E9EC578048">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 17:27:52 UTC</createdTime>
+<generatorID>2ED57C20-446E-2367-7154-CCC2B899E2E5</generatorID>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<referedAttribute>84CC9F6C-5548-8859-9C62-F5824E2BFF86</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8AF08BC-3317-E647-FB75-A035D8A1E171" name="Transaksi PK">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:43:50 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5F2A9DC-4C4A-A7EC-A313-A84EBB1A2D9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

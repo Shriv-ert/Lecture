@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3007FC5F-D462-C864-8528-AABCF1C13D2D" name="Mobil">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:17:35 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>0031A97D-D723-5EAE-D69D-CA2D34A4A783</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_pol" id="D449533A-5337-6E87-C7E4-7485D9C4DE2E">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:17:43 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kapasitas" id="F0A86487-CC35-6793-C413-BC6C985B0769">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:18:13 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bahan_bakar" id="E8E3F577-BD2B-9F5D-2006-FEA5D02F3D43">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:20:23 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4FE32BA-64DB-5FAD-7C4B-2C2B2414155D" name="Mobil PK">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:17:50 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D449533A-5337-6E87-C7E4-7485D9C4DE2E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C419ECD4-9863-77BD-4506-22199D02B8DC" name="Penyewa">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:36:41 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_penyewa" id="84CC9F6C-5548-8859-9C62-F5824E2BFF86">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:37:02 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama" id="A6E9E23B-3648-78CE-CADD-E73990579AE8">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:37:16 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_telp" id="481B6569-89BE-EF5E-D040-88605CF9649A">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:37:26 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat" id="57C47B84-0B87-F3C5-03D1-7917A58FE76E">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:37:44 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIK" id="EE813538-57F9-195F-477E-5F2EA7BE3598">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:38:06 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_transaksi" id="05B38A9E-0EB8-E22B-8B16-8ADE93BDC9E4">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 17:27:44 UTC</createdTime>
+<generatorID>2ED57C20-446E-2367-7154-CCC2B899E2E5</generatorID>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<referedAttribute>F5F2A9DC-4C4A-A7EC-A313-A84EBB1A2D9F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8073C68A-C7B7-14E4-F687-E14BCA30CFE9" name="Penyewa PK">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:37:13 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>84CC9F6C-5548-8859-9C62-F5824E2BFF86</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

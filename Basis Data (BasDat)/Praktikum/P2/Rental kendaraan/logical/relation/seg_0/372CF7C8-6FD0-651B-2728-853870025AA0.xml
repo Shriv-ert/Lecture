@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="372CF7C8-6FD0-651B-2728-853870025AA0">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 16:59:57 UTC</createdTime>
+<ownerDesignName>Rental kendaraan</ownerDesignName>
+<engineerTo>
+<item key="F91B7E88-7DA9-85A5-FBD3-6134436FFD63" value="true"/>
+</engineerTo>
+<sourcePk>A3312B6A-E2EF-58DE-21D2-7DD309AC35FE</sourcePk>
+<arc>2783C552-AFDF-9A03-6EC3-6E03DA2BCEDE</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>13E6BD90-FF75-D9F5-8B68-C080B734FD94</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>89A1E464-765A-00EF-4395-31C4190B5BD1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
