@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB631D21-7D5F-8057-4D39-395507E5356B" name="Transaksi">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:53:02 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Transaksi" id="5CA48596-E716-9FE2-F0CA-38991E3AD637">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:53:10 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal" id="86E70703-B808-CC28-7340-761AE1B6FD3A">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:53:18 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pembeli" id="E12653F4-F04A-F4FA-D540-2AAE312742DF">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:53:21 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Produk yang dibeli" id="FECF664D-DF85-92A3-5F43-2AE3130CEE35">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:53:24 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jumlah" id="E526B711-7636-9E69-1E74-77CD72A646FD">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:53:29 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total Harga" id="3712324F-D12B-0CD1-0D9A-3D922FE457C5">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:53:32 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,16,3</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48D27946-7978-B958-3F81-3ADFC0181BF4" name="Transaksi PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:57:38 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CA48596-E716-9FE2-F0CA-38991E3AD637</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6355C7D4-41FB-36B2-6FBF-897AD400275D" name="Transaksi">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:44:09 UTC</createdTime>
+<ownerDesignName>sampah daur ulang</ownerDesignName>
+<engineerTo>
+<item key="5CC3AA70-1F09-58F4-8321-C0097589C00C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Transaksi" id="537D9734-8FA4-9E66-AFA4-CB943DF215FA">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:45:21 UTC</createdTime>
+<ownerDesignName>sampah daur ulang</ownerDesignName>
+<engineerTo>
+<item key="5CC3AA70-1F09-58F4-8321-C0097589C00C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal_transaksi" id="B25B88E6-6F9C-653B-B589-B745FF38634C">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:48:57 UTC</createdTime>
+<ownerDesignName>sampah daur ulang</ownerDesignName>
+<engineerTo>
+<item key="5CC3AA70-1F09-58F4-8321-C0097589C00C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sampah_dibeli" id="4BFC7918-DD9E-D727-9740-6806DE1E35D9">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:51:47 UTC</createdTime>
+<ownerDesignName>sampah daur ulang</ownerDesignName>
+<engineerTo>
+<item key="5CC3AA70-1F09-58F4-8321-C0097589C00C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Berat" id="CCE5E1D6-1422-DF52-E626-FA8F53EF3269">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:52:32 UTC</createdTime>
+<ownerDesignName>sampah daur ulang</ownerDesignName>
+<engineerTo>
+<item key="5CC3AA70-1F09-58F4-8321-C0097589C00C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga_total" id="C379FE0A-108F-9BA9-73CA-20DE5052EB27">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:45:59 UTC</createdTime>
+<ownerDesignName>sampah daur ulang</ownerDesignName>
+<engineerTo>
+<item key="5CC3AA70-1F09-58F4-8321-C0097589C00C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7F77FB6A-FEF1-CE9A-5B90-2DE36541BC63" name="Transaksi PK">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:48:22 UTC</createdTime>
+<ownerDesignName>sampah daur ulang</ownerDesignName>
+<engineerTo>
+<item key="5CC3AA70-1F09-58F4-8321-C0097589C00C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>537D9734-8FA4-9E66-AFA4-CB943DF215FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB846C1D-896F-9ECD-DC08-2860E8C983AF" name="Laporan Keuangan ">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:54:59 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Laporan" id="D1152529-2D4E-4E03-01A3-B52CE21430D2">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:55:09 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bulan" id="C6396C42-4E42-6F86-3CB6-4426F9326E35">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:55:17 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tahun" id="BECA2318-1C6C-A2CE-9C5F-9EC51458E0F8">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:55:22 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pemasukan" id="D18BE134-E514-052C-290B-94155D8E9E47">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:55:26 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,16,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pengeluaran" id="9CF366BD-E260-035F-9F27-FEDD6F8FD4A4">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:55:37 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,16,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Keuntungan" id="975E88BD-7798-55A7-BE77-454433967551">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:55:40 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,16,3</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47458F4F-E366-9C38-3EA3-7AB278BA1A03" name="Laporan Keuangan PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:57:46 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1152529-2D4E-4E03-01A3-B52CE21430D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

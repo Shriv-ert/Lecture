@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB9ECDAB-F9A1-1078-88AF-69064CC2724A" name="Produk">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:52:02 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Produk" id="736B6A8A-C2D2-85B0-9FD8-1A85E355464D">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:52:12 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama Produk" id="FEE47E8B-9320-0E5C-F1F7-20C3C3F1DD1C">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:52:27 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kategori" id="C209D1F6-8E43-4DA3-4351-34888F9F3E5C">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:52:38 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga" id="AE51602D-BFA1-FAC2-5FA3-2E0C52FBD7AC">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:52:43 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,16,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stok" id="4B2E3ED1-8483-A688-AFD0-B75CE05203E1">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:52:45 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UMKM" id="575504C5-07D7-8721-A950-7CEE939B2122">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 04:07:36 UTC</createdTime>
+<generatorID>259085E8-5FCD-F475-1CB9-BE45468BEC92</generatorID>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<referedAttribute>86596958-E22A-37BD-9112-C2095037FA78</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EEEF7166-6F73-AD94-29BE-1797F756FEAE" name="Produk PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:57:32 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>736B6A8A-C2D2-85B0-9FD8-1A85E355464D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "tabel.h"
 
 /* Deskripsi : real mtabsemut. semut akan berjalan sebanyak t langkah ketika bertemu semut lain akan putar balik, ketika ke penghujung akan teleport ke ujung lain dalam 1 langkah*/
@@ -29,6 +28,7 @@ int main() {
             idx=1;
         }
         res.wadah[idx+geser]='Y';
+        printf("%d\n", idx+geser);
 
     }
     for(int i = 1; i <= n; i++){

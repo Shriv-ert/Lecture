@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="735E22E5-784E-4C45-54FB-35A0C7A04E3D" name="Warga">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:40:45 UTC</createdTime>
+<ownerDesignName>sampah daur ulang</ownerDesignName>
+<engineerTo>
+<item key="5CC3AA70-1F09-58F4-8321-C0097589C00C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIK" id="71908148-0688-EBCE-4739-891CC893655C">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:40:57 UTC</createdTime>
+<ownerDesignName>sampah daur ulang</ownerDesignName>
+<engineerTo>
+<item key="5CC3AA70-1F09-58F4-8321-C0097589C00C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama" id="B9BECD26-2786-3208-68AD-8458D605280D">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:41:13 UTC</createdTime>
+<ownerDesignName>sampah daur ulang</ownerDesignName>
+<engineerTo>
+<item key="5CC3AA70-1F09-58F4-8321-C0097589C00C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RT" id="91EB304D-C37A-4AE4-985A-FEC2B93B5F9D">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:41:42 UTC</createdTime>
+<ownerDesignName>sampah daur ulang</ownerDesignName>
+<engineerTo>
+<item key="5CC3AA70-1F09-58F4-8321-C0097589C00C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RW" id="13EB53F2-86AF-A8FD-3F38-2563783858EB">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:42:18 UTC</createdTime>
+<ownerDesignName>sampah daur ulang</ownerDesignName>
+<engineerTo>
+<item key="5CC3AA70-1F09-58F4-8321-C0097589C00C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA3F07BF-5026-CA5A-5A5F-58B27573BF30" name="Warga PK">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:41:03 UTC</createdTime>
+<ownerDesignName>sampah daur ulang</ownerDesignName>
+<engineerTo>
+<item key="5CC3AA70-1F09-58F4-8321-C0097589C00C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71908148-0688-EBCE-4739-891CC893655C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

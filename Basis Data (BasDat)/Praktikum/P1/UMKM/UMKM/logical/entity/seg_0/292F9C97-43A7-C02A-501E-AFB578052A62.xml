@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="292F9C97-43A7-C02A-501E-AFB578052A62" name="UMKM">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:16:13 UTC</createdTime>
+<ownerDesignName>UMKM</ownerDesignName>
+<engineerTo>
+<item key="2842BE2C-A316-6AEB-D98C-9BCC4005B171" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_UMKM" id="5717CEAB-B100-120B-5AA9-730A6AA21A2F">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:16:32 UTC</createdTime>
+<ownerDesignName>UMKM</ownerDesignName>
+<engineerTo>
+<item key="2842BE2C-A316-6AEB-D98C-9BCC4005B171" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama usaha" id="F4976A77-370E-8156-205C-24A0F324FE28">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:16:54 UTC</createdTime>
+<ownerDesignName>UMKM</ownerDesignName>
+<engineerTo>
+<item key="2842BE2C-A316-6AEB-D98C-9BCC4005B171" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jenis usaha" id="3EBAB9EA-844F-11A5-2A7B-047547E5F925">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:18:19 UTC</createdTime>
+<ownerDesignName>UMKM</ownerDesignName>
+<engineerTo>
+<item key="2842BE2C-A316-6AEB-D98C-9BCC4005B171" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B36BDB2-333F-D019-EB2D-DBC8E2FD2D76" name="UMKM PK">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:16:44 UTC</createdTime>
+<ownerDesignName>UMKM</ownerDesignName>
+<engineerTo>
+<item key="2842BE2C-A316-6AEB-D98C-9BCC4005B171" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5717CEAB-B100-120B-5AA9-730A6AA21A2F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

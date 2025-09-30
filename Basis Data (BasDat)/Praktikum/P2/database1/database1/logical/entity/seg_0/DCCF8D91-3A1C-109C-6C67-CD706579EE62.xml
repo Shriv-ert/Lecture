@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCCF8D91-3A1C-109C-6C67-CD706579EE62" name="Asosiasi">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:55:57 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Asosiasi" id="7427BD9E-FAD2-2477-0716-291D2D0F49E0">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:56:03 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama Asosiasi" id="94D4A161-AD84-BCAF-303B-6C777C095A3A">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:56:09 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bidang Usaha" id="486B1D7F-1177-1D73-56F6-84A90B73B03B">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:56:15 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tahun Dibentuk" id="C5325585-7B61-421F-5AE1-54CED7472570">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:56:19 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8C76F7D-4104-BF26-5D85-B28CCBD48BEC" name="Asosiasi PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:57:49 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7427BD9E-FAD2-2477-0716-291D2D0F49E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

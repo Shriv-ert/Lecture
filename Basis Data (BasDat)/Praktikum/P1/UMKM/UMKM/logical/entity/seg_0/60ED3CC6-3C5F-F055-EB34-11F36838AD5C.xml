@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60ED3CC6-3C5F-F055-EB34-11F36838AD5C" name="Pemilik UMKM">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:06:54 UTC</createdTime>
+<ownerDesignName>UMKM</ownerDesignName>
+<engineerTo>
+<item key="2842BE2C-A316-6AEB-D98C-9BCC4005B171" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIK" id="51273FA2-2344-E796-08BF-ABA520F5C5F4">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:08:21 UTC</createdTime>
+<ownerDesignName>UMKM</ownerDesignName>
+<engineerTo>
+<item key="2842BE2C-A316-6AEB-D98C-9BCC4005B171" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama" id="D0C9146A-AC5B-FD1B-25EF-195B09050BDC">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:09:42 UTC</createdTime>
+<ownerDesignName>UMKM</ownerDesignName>
+<engineerTo>
+<item key="2842BE2C-A316-6AEB-D98C-9BCC4005B171" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alamat lengkap" id="970251FD-0BB5-7421-EF5A-E9976F695481">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:12:34 UTC</createdTime>
+<ownerDesignName>UMKM</ownerDesignName>
+<engineerTo>
+<item key="2842BE2C-A316-6AEB-D98C-9BCC4005B171" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal lahir" id="0507C810-8250-4D7B-6D12-053E2EDF5025">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:12:59 UTC</createdTime>
+<ownerDesignName>UMKM</ownerDesignName>
+<engineerTo>
+<item key="2842BE2C-A316-6AEB-D98C-9BCC4005B171" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jenis kelamin" id="11C98DD2-0A9F-848F-1A84-518C71D3F140">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:14:00 UTC</createdTime>
+<ownerDesignName>UMKM</ownerDesignName>
+<engineerTo>
+<item key="2842BE2C-A316-6AEB-D98C-9BCC4005B171" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no HP." id="31D0E42C-3301-4FC5-A36B-BBF683DA3246">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:15:35 UTC</createdTime>
+<ownerDesignName>UMKM</ownerDesignName>
+<engineerTo>
+<item key="2842BE2C-A316-6AEB-D98C-9BCC4005B171" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="630EF4DE-4976-0DD1-5466-AA54AFDA2408" name="Pemilik UMKM PK">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-16 04:08:29 UTC</createdTime>
+<ownerDesignName>UMKM</ownerDesignName>
+<engineerTo>
+<item key="2842BE2C-A316-6AEB-D98C-9BCC4005B171" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51273FA2-2344-E796-08BF-ABA520F5C5F4</attributeRef>
+<attributeRef>D0C9146A-AC5B-FD1B-25EF-195B09050BDC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

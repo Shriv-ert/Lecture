@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F41F129E-7F9D-C280-76C5-195EBEA89B63" name="Program Pendampingan &amp; Bantuan">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:53:52 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Program" id="55D4C93D-78C0-B3D0-E61A-6AF00E8E2432">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:54:13 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama Program" id="75CE95C3-35AA-FCC8-2590-D61795E98FFB">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:54:21 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jenis" id="DF984033-A72E-9583-55FD-2E54CC89FCE1">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:54:25 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal Mulai" id="2351C7DC-0954-0760-93AB-AE3287E8C921">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:54:30 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal Selesai" id="4683570B-3C1C-0134-61E9-EC530BD2A721">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:54:41 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8BC9AE8-FE05-5F10-4606-13057218C420" name="Program Pendampingan &amp; Bantuan PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2025-09-16 03:57:41 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55D4C93D-78C0-B3D0-E61A-6AF00E8E2432</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="umkmToProduk" directorySegmentName="seg_0" id="259085E8-5FCD-F475-1CB9-BE45468BEC92">
+<createdBy>Fikrul</createdBy>
+<createdTime>2025-09-23 04:07:36 UTC</createdTime>
+<ownerDesignName>database1</ownerDesignName>
+<engineerTo>
+<item key="F8C0DA6D-C080-E618-86CB-84E1795F7AC3" value="true"/>
+</engineerTo>
+<sourcePk>6AF9151A-F38F-514F-2385-00D8F5DFC95C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>77D2BAF3-E2CF-19AA-CBE7-56F06AFE8BA9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB9ECDAB-F9A1-1078-88AF-69064CC2724A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
