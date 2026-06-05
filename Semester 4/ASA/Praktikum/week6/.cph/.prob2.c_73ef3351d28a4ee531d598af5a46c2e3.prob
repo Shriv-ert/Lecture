@@ -1,0 +1,1 @@
+{"name":"Local: prob2","url":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week6/prob2.c","tests":[{"id":1776952048212,"input":"8\n+0\n1.0\n2E0\n3\n4.0000000000000\n5.0000000000001\nInf\nnan","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week6/prob2.c","group":"local","local":true}

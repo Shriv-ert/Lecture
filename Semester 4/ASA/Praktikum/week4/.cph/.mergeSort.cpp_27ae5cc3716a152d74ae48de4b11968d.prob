@@ -1,0 +1,1 @@
+{"name":"Local: mergeSort","url":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week4/mergeSort.cpp","tests":[{"id":1773286303138,"input":"9\n6 4 6 7 9 5 4 3 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week4/mergeSort.cpp","group":"local","local":true}

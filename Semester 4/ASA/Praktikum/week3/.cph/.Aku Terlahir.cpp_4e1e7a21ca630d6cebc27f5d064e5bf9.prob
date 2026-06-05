@@ -1,0 +1,1 @@
+{"name":"Local: Aku Terlahir","url":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week3/Aku Terlahir.cpp","tests":[{"id":1772685683829,"input":"5 1\n* 2 + 1000\n+ 500 + 1000\n* 5 * 6\n* -1 * 2\n* -2 * -3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week3/Aku Terlahir.cpp","group":"local","local":true}

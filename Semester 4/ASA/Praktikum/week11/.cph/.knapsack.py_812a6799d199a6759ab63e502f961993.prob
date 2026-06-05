@@ -1,0 +1,1 @@
+{"name":"Local: knapsack","url":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week11/knapsack.py","tests":[{"id":1779336037831,"input":"4 7\n1 3 4 5\n1 4 5 7 ","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week11/knapsack.py","group":"local","local":true}

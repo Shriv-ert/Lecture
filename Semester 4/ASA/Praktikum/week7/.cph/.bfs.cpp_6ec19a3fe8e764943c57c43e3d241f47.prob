@@ -1,0 +1,1 @@
+{"name":"Local: bfs","url":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week7/bfs.cpp","tests":[{"id":1776917798491,"input":"4 5\n11000\n11000\n00100\n00011","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week7/bfs.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: graph","url":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week7/graph.cpp","tests":[{"id":1776918802077,"input":"3\nA Z\nA B\nC\nD E","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week7/graph.cpp","group":"local","local":true}

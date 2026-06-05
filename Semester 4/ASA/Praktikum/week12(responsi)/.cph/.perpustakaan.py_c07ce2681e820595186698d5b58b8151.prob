@@ -1,0 +1,1 @@
+{"name":"Local: perpustakaan","url":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week12(responsi)/perpustakaan.py","tests":[{"id":1780547534378,"input":"5\n5 3\n?\n%\n%%%?\n?%\n???%%?","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week12(responsi)/perpustakaan.py","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: GBFS","url":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week10/GBFS.py","tests":[{"id":1778828069703,"input":"7 8\n40 32 25 35 19 17 0\n1 2\n1 3\n1 4\n3 5\n3 6\n5 7\n6 7\n4 7\n1 7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week10/GBFS.py","group":"local","local":true}

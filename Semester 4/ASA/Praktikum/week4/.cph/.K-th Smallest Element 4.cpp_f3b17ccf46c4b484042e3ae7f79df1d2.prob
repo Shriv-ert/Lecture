@@ -1,0 +1,1 @@
+{"name":"Local: K-th Smallest Element 4","url":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week4/K-th Smallest Element 4.cpp","tests":[{"id":1773287511315,"input":"7 3\n7 10 4 3 20 15 8","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/vert/Lecture/Semester 4/ASA/Praktikum/week4/K-th Smallest Element 4.cpp","group":"local","local":true}
